@@ -18,4 +18,6 @@ runs:
         days-before-close: 7
         # Do not touch any issues
         days-before-issue-stale: -1
-        days-before-issue-close: -1 
+        days-before-issue-close: -1
+        # Operations limit is used for issues and PRs, even if issues are not touched
+        operations-per-run: 500
