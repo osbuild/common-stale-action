@@ -9,7 +9,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - uses: actions/stale@v8
+    - uses: actions/stale@v9
       with:
         repo-token: "${{ inputs.TOKEN }}"
         stale-pr-message: 'This PR is stale because it has been open 30 days with no activity. Remove "Stale" label or comment or this will be closed in 7 days.'
